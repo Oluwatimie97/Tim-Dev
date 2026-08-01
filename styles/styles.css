@@ -119,6 +119,7 @@ nav.scrolled {
     opacity 0.2s,
     transform 0.15s;
   border: none;
+  cursor: pointer;
 }
 .nav-btn:hover {
   opacity: 0.88;
@@ -269,6 +270,7 @@ nav.scrolled {
     color 0.2s,
     border-color 0.2s;
   border: none;
+  cursor: pointer;
 }
 .cta-sec:hover {
   color: var(--body);
@@ -1140,6 +1142,7 @@ footer {
   background: #1f2937;
   color: white;
   font-size: 15px;
+  resize: none;
 }
 
 .modal input:focus,
